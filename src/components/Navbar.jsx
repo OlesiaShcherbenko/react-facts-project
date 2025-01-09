@@ -1,5 +1,10 @@
 export default function Navbar() {
     return (
-      <h1>Navbar component here</h1>
+      <header>
+        <nav>
+          <img src="src/assets/reactjs-icon.png" alt="React logo" />
+          <span>ReactFacts</span>
+        </nav>
+      </header>
     )
   }
